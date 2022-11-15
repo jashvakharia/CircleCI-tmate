@@ -1,0 +1,17 @@
+version: 2.1
+jobs:
+  compile:
+   docker:
+      - image: mrkhan007/aosp:latest 
+   steps:
+      - run:
+          command: |
+           sudo apt install tmate
+           export TERM=xterm #edit here
+           tmate
+        
+workflows:
+  version: 2.1
+  cooking:
+    jobs:
+      - compile
