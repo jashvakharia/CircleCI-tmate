@@ -8,7 +8,7 @@ Give a SSH Terminal of CircleCI.
 In CircleCI page, add the repository so it can automatically launch an instance whenever you want.
 ## Authors
 
-- [jash69](https://www.github.com/jash69)
+- [jash69](https://www.github.com/jashvakharia)
 - mrkhan007
 
 
