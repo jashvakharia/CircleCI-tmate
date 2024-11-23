@@ -7,7 +7,7 @@ jobs:
       - run:
           command: |
            sudo apt install tmate
-           export TERM=xterm #edit here 1
+           export TERM=xterm #edit here execute
            tmate
         
 workflows:
